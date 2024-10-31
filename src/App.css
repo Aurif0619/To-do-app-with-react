@@ -1,0 +1,5 @@
+.bg-img{
+    background-image: url(./components/assets/Bg-Img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
