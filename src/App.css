@@ -1,5 +1,47 @@
-.bg-img{
+.bg-img {
     background-image: url(./components/assets/Bg-Img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.todo-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #DE3163;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    animation: textColorChange 3s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes textColorChange {
+    0% {
+        color: #ff0000;
+    }
+
+    50% {
+        color: #1723d1;
+    }
+
+    60% {
+        color: #00ff15;
+    }
+
+    55% {
+        color: #ff00aa;
+    }
+
+    75% {
+        color: #2c1b1b;
+    }
+
+    100% {
+        color: #00ff00;
+    }
+    100% {
+        color: #ffff;
+    }
 }
